@@ -1,5 +1,7 @@
 import streamlit as st
 from PIL import Image
+import requests
+from io import BytesIO
 
 # Cài đặt trang
 st.set_page_config(page_title="Giới thiệu khí hậu và Du lịch ở Huế",
@@ -91,8 +93,8 @@ tab = st.sidebar.radio("Chọn trang", [
 
 # Hàm tải ảnh từ URL
 def load_image(url):
-response = requests.get(url)
-return Image.open(BytesIO(response.content))
+  response = requests.get(url)
+  return Image.open(BytesIO(response.content))
 
 # Hiển thị ảnh sử dụng Streamlit
 # st.image(load_image("https://github.com/BaThienPhan/App_Dien_Kien_Trung/raw/main/vi-tri-1.jpg"),
