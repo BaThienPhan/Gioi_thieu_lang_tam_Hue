@@ -246,7 +246,7 @@ elif tab == "DU LỊCH HUẾ":
         st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/du-lich-bien-lang-co-thuan-an.png"),
                  caption="Lăng Cô - Thuận An", use_column_width=True)
     with col17:
-        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/du-lich-bien-dam-chuon.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/du-lich-bien-dam-chuon.png"),
                  caption="Đầm Chuồn", use_column_width=True))
     with col18:
         st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/du-lich-bien-cheo-sup.png"),
