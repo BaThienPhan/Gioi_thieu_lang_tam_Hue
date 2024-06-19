@@ -130,13 +130,13 @@ elif tab == "ĐẶC TRƯNG KHÍ HẬU":
 
     with col3:
         # Thay thế bằng đường dẫn tới hình ảnh của bạn
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/kh-1.jpg",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/kh-1.jpg"),
                  caption="", use_column_width=True)
     with col4:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/kh-2.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/kh-2.png"),
                  caption="", use_column_width=True)
     with col5:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/kh-3.jpg",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/kh-3.jpg"),
                  caption="", use_column_width=True)
     st.markdown("""
         <div class='text'>
@@ -156,10 +156,10 @@ elif tab == "CÁC MÙA TRONG NĂM":
 
     with col6:
         # Thay thế bằng đường dẫn tới hình ảnh của bạn
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/mua-1.jpg",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/mua-1.jpg"),
                  caption="", use_column_width=True)
     with col7:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/mua-2.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/mua-2.png"),
                  caption="", use_column_width=True)
     st.markdown("""
         <div class='text'>
@@ -194,16 +194,16 @@ elif tab == "DU LỊCH HUẾ":
     """, unsafe_allow_html=True)
     col10, col11, col12, col13 = st.columns(4)
     with col10:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/dn-cung-an-dinh.jpg",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/dn-cung-an-dinh.jpg"),
                  caption="Cung An Định", use_column_width=True)
     with col11:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/dn-dai-noi-hue.jpg",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/dn-dai-noi-hue.jpg"),
                  caption="Đại Nội Huế", use_column_width=True)
     with col12:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/dn-lang-tam.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/dn-lang-tam.png"),
                  caption="Lăng tẩm", use_column_width=True)
     with col13:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/dn-thien-vien-truc-lam.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/dn-thien-vien-truc-lam.png"),
                  caption="Thiền viện Trúc Lâm", use_column_width=True)
 
     st.markdown("<div class='subtitle'>MÙA LỄ HỘI CỐ ĐÔ (Tháng 4)</div>",
@@ -221,10 +221,10 @@ elif tab == "DU LỊCH HUẾ":
     """, unsafe_allow_html=True)
     col14, col15 = st.columns([1.35, 1.15])
     with col14:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/mua-le-hoi-1.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/mua-le-hoi-1.png"),
                  caption="", use_column_width=True)
     with col15:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/mua-le-hoi-2.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/mua-le-hoi-2.png"),
                  caption="", use_column_width=True)
     st.markdown("<div class='subtitle'>MÙA DU LỊCH BIỂN (Tháng 5-8)</div>",
                 unsafe_allow_html=True)
@@ -243,16 +243,16 @@ elif tab == "DU LỊCH HUẾ":
     """, unsafe_allow_html=True)
     col16, col17, col18, col19 = st.columns(4)
     with col16:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/du-lich-bien-lang-co-thuan-an.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/du-lich-bien-lang-co-thuan-an.png"),
                  caption="Lăng Cô - Thuận An", use_column_width=True)
     with col17:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/du-lich-bien-dam-chuon.png",
-                 caption="Đầm Chuồn", use_column_width=True)
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/du-lich-bien-dam-chuon.png",
+                 caption="Đầm Chuồn", use_column_width=True))
     with col18:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/du-lich-bien-cheo-sup.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/du-lich-bien-cheo-sup.png"),
                  caption="Chèo sup trên sông Hương", use_column_width=True)
     with col19:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/du-lich-bien-song-suoi.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/du-lich-bien-song-suoi.png"),
                  caption="Sông suối", use_column_width=True)
     st.markdown("<div class='subtitle'>MÙA MƯA XỨ THƠ (Tháng 9-12)</div>",
                 unsafe_allow_html=True)
@@ -269,19 +269,19 @@ elif tab == "DU LỊCH HUẾ":
     """, unsafe_allow_html=True)
     col20, col21, col22, col23, col24 = st.columns([1, 1, 1, 1, 1.5])
     with col20:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/mua-mua-xu-tho-1.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/mua-mua-xu-tho-1.png"),
                  caption="", use_column_width=True)
     with col21:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/mua-mua-xu-tho-2.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/mua-mua-xu-tho-2.png"),
                  caption="", use_column_width=True)
     with col22:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/mua-mua-xu-tho-3.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/mua-mua-xu-tho-3.png"),
                  caption="", use_column_width=True)
     with col23:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/mua-mua-xu-tho-4.png",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/mua-mua-xu-tho-4.png"),
                  caption="", use_column_width=True)
     with col24:
-        st.image("C:/Users/bathi/OneDrive/Desktop/Python/Khi-Hau-Hue/dl-nha-nhac.jpg",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/dl-nha-nhac.jpg"),
                  caption="", use_column_width=True)
 
     # Footer
