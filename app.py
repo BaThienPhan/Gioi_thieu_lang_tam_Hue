@@ -91,7 +91,7 @@ tab = st.sidebar.radio("NỘI DUNG", [
     "HUẾ", "ĐẶC TRƯNG KHÍ HẬU", "CÁC MÙA TRONG NĂM", "DU LỊCH HUẾ"])
 
 # Hàm tải ảnh từ URL
- def load_image(url):
+def load_image(url):
    response = requests.get(url)
    return Image.open(BytesIO(response.content))
 
