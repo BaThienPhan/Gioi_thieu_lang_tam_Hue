@@ -111,7 +111,7 @@ if tab == "HUẾ":
                  caption="Cố đô Huế", use_column_width=True)
     with col2:
         # Thay thế bằng đường dẫn tới hình ảnh của bạn
-        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/gt-hue-2.jpg", caption="Vị trí Huế trên bản đồ Việt Nam",
+        st.image(load_image("https://github.com/BaThienPhan/Khi-hau-va-du-lich-Hue/raw/main/gt-hue-2.jpg"), caption="Vị trí Huế trên bản đồ Việt Nam",
                  use_column_width=True)
     st.markdown("""
         <div class='text'>
